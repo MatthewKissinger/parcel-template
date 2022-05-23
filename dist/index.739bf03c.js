@@ -526,6 +526,15 @@ function hmrAcceptRun(bundle, id) {
 }
 
 },{}],"ebWYT":[function(require,module,exports) {
+// Main js file
+const name = 'James';
+const person = {
+    first: `${name}`
+};
+const sayHelloLinting = (fName)=>{
+    console.log(`Hello linting, ${fName}`);
+};
+sayHelloLinting(person.first);
 
 },{}]},["ljsGX","ebWYT"], "ebWYT", "parcelRequire9b17")
 
